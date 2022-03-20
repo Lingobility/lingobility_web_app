@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
+import Rating from '@mui/material/Rating';
 
 const wordList = ["apple", "banana", "cat", "dog", "elephant", "funny", "good", "happy", "ice", "jacket", "korea"];
 const word = wordList[Math.floor(Math.random() * wordList.length)]
@@ -39,6 +40,15 @@ function Home() {
       <Typography variant="body1" align="center">
         Your chosen word is {randomWord}! How well do you know this word??
       </Typography>
+
+
+      <Typography component="legend"> </Typography>
+				<Rating 
+          name="rating1" 
+          defaultValue={2} 
+          max={10} 
+          precision={0.5} 
+			/>
     </div>
   ); 
 }
