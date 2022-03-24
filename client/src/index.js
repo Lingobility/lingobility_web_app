@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import SignIn from './components/SignIn'
 import Home from './components/Home'
 import Test from './components/Test'
-import Question1 from './components/Questions1'
+import Question1 from './components/Question1'
 
 ReactDOM.render(
   <React.StrictMode>
