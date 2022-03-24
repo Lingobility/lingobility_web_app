@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import SignIn from './components/SignIn'
 import Home from './components/Home'
 import Test from './components/Test'
+import Question1 from './components/Questions1'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +19,7 @@ ReactDOM.render(
         <Route path="/signin" element={<SignIn />} />
         <Route path="/home" element={<Home />} />
         <Route path="/test" element={<Test />} />
-				
+				<Route path="/question1" element={<Question1 />} />
 			</Routes>
 		</BrowserRouter>
   </React.StrictMode>,
