@@ -54,7 +54,7 @@ function Home() {
 
       <Box textAlign="center" mb={5}>
         <Typography component="legend"> </Typography>
-        <Rating name="rating1" defaultValue={2} max={10} precision={0.5} />
+        <Rating name="rating1" defaultValue={1} max={5} precision={0.5} />
           
       
       
