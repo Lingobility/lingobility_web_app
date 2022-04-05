@@ -19,20 +19,37 @@ const wordList = [
   "jacket",
   "korea",
 ];
+
 const word = wordList[Math.floor(Math.random() * wordList.length)];
 
-function addWord() {
-  let x = document.getElementById("newWord").value;
-  console.log(x);
-  wordList.push(x)
-  console.log(wordList)
-  
-}
+
 
 function CustomWheel() {
   console.log("word:", word);
   const [randomWord, setRandomWord] = useState("Lingobility");
+  const [wordList1, setWordList1] = useState([
+    "apple",
+    "banana",
+    "cat",
+    "dog",
+    "elephant",
+    "funny",
+    "good",
+    "happy",
+    "ice",
+    "jacket",
+    "japan",
+  ]);
 
+
+  function addWord() {
+    let x = document.getElementById("newWord").value;
+    console.log(x);
+    wordList1.push(x)
+    console.log(wordList1)
+    setWordList1(wordList1)
+    // setWordList1(wordList1.push(x))
+  }
   return (
     <div>
       {console.log(wordList)}
@@ -51,7 +68,7 @@ function CustomWheel() {
         </Typography>
       </box>
       <Typography variant="body1" align="center">
-        Your current list of words are: {wordList.join(", ")}
+        Your current list of words are: {wordList1}
       </Typography>
       <Box
         textAlign="center"
