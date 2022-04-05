@@ -53,22 +53,15 @@ function Question2() {
         <Button
           variant="contained"
           size="large"
-          href="/home"
+          href="/question3"
           // onClick={() =>
 
           //   alert("Submitted!")
           // }
         >
-          English
+          Submit
         </Button>
-        <Button
-          variant="contained"
-          size="large"
-          onClick={() => alert("Submitted!")}
-          sx={{ ml: 10 }}
-        >
-          French
-        </Button>
+       
       </Box>
     </div>
   );

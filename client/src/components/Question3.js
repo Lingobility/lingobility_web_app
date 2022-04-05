@@ -19,24 +19,24 @@ function Question3() {
             fontFamily: "Concert One",
           }}
         >
-          Setup Question 1
+          Setup Question 3
         </Typography>
       </box>
-      <Typography variant="h4" align="center">
-        What language would you like to work on?  
+       <Typography variant="h4" align="center">
+        How would you like to start? 
       </Typography>
-
+      
       <Box textAlign="center" mb={5} mt={5}>
         <Button
             variant="contained"
             size="large"
-            href="/question2"
+            href="/presetwheel"
             // onClick={() =>
               
             //   alert("Submitted!")
             // }
           >
-            English
+            Simple 
         </Button>
         <Button
             variant="contained"
@@ -47,9 +47,15 @@ function Question3() {
             }
             sx={{ml: 10}}
           >
-            French
+            Custom
         </Button>
       </Box>
+      <Typography variant="body1" align="center">
+         Simple: Start with a word list that we have prepared for you!
+         <br></br>
+         <br></br>
+         Custom: Start by creating your own list of words that you want to learn!   
+      </Typography>
     </div>
   );
 }
