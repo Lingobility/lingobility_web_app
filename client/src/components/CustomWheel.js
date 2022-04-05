@@ -19,7 +19,6 @@ const wordList = [
   "jacket",
   "korea",
 ];
-
 const word = wordList[Math.floor(Math.random() * wordList.length)];
 
 
@@ -31,14 +30,7 @@ function CustomWheel() {
     "apple",
     "banana",
     "cat",
-    "dog",
-    "elephant",
-    "funny",
-    "good",
-    "happy",
-    "ice",
-    "jacket",
-    "japan",
+
   ]);
 
 
@@ -68,7 +60,7 @@ function CustomWheel() {
         </Typography>
       </box>
       <Typography variant="body1" align="center">
-        Your current list of words are: {wordList1}
+        Your current list of words are: {wordList1.join(", ")}
       </Typography>
       <Box
         textAlign="center"
