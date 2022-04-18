@@ -18,6 +18,9 @@ const wordList = [
   "ice",
   "jacket",
   "korea",
+  "lemon",
+  "money",
+  "november"
 ];
 const word = wordList[Math.floor(Math.random() * wordList.length)];
 
