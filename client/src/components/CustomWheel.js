@@ -20,7 +20,10 @@ const wordList = [
   "korea",
   "lemon",
   "money",
-  "november"
+  "november",
+  "october",
+  "pacific",
+  "science"
 ];
 const word = wordList[Math.floor(Math.random() * wordList.length)];
 
