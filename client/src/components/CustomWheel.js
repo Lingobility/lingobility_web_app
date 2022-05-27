@@ -23,7 +23,9 @@ const wordList = [
   "november",
   "october",
   "pacific",
-  "science"
+  "science",
+  "teacher",
+  "university"
 ];
 const word = wordList[Math.floor(Math.random() * wordList.length)];
 
