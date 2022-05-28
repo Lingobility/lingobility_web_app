@@ -25,7 +25,10 @@ const wordList = [
   "pacific",
   "science",
   "teacher",
-  "university"
+  "university",
+  "china",
+  "taiwan"
+  
 ];
 const word = wordList[Math.floor(Math.random() * wordList.length)];
 
