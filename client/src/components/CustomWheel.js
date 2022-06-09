@@ -30,7 +30,8 @@ const wordList = [
   "taiwan",
   "korea",
   "canada",
-  "highway"
+  "highway",
+  "church"
   
 ];
 const word = wordList[Math.floor(Math.random() * wordList.length)];
